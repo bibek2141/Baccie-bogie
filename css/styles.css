@@ -153,6 +153,7 @@ main {
     #section2,
     #section3,
     #section4,
+    #aboutMe,
     footer {
         width: 100%;
         padding-top: 7rem;
@@ -162,9 +163,23 @@ main {
         text-align: center;
     }
 
-    #section4 {
+    #aboutMe,
+    #section3,
+    footer {
         background-color: #ADD8E6;
     }
+
+    #aboutMe p {
+        color: white;
+        width: 65%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    #aboutMe img {
+        width: 20%;
+    }
+
 
     .Review1 {
         width: 25%;
@@ -177,7 +192,7 @@ main {
     }
 
     #section2 {
-        background-color: #ADD8E6;
+        background-color: #8FBC8F;
     }
 
     #section2 {
@@ -232,6 +247,7 @@ main {
         color: red;
     }
 
+    #aboutMe h1,
     #section4 h2,
     #section3 h1,
     #section2 h1,
@@ -268,7 +284,7 @@ main {
     }
 
     footer form {
-        background-color: #ADD8E6;
+        background-color: #8FBC8F;
         color: white;
         padding: 3rem;
     }
