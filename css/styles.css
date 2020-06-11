@@ -226,6 +226,10 @@ main {
         border-radius: 30px;
     }
 
+    .insta {
+        color: #3d9970 !important;
+    }
+
     #section2 .check,
 
     caption {
