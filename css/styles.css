@@ -148,8 +148,13 @@ main {
         border-color: white;
     }
 
+    .imgTitle {
+        width: 70%;
+    }
+
     /*Section1*/
     #section1,
+    #section1-1,
     #section2,
     #section3,
     #section4,
@@ -163,10 +168,11 @@ main {
         text-align: center;
     }
 
-    #aboutMe,
-    #section3,
-    footer {
-        background-color: #ADD8E6;
+
+    #section4,
+    #section1-1,
+    #section2 {
+        background-color: #ADD8E6 !important;
     }
 
     #aboutMe p {
@@ -221,7 +227,7 @@ main {
     }
 
     #section2 .check,
-    .intro,
+
     caption {
         color: white;
     }
@@ -290,7 +296,7 @@ main {
     }
 
     footer form {
-        background-color: #8FBC8F;
+        background-color: #ADD8E6;
         color: white;
         padding: 3rem;
     }
@@ -310,7 +316,11 @@ main {
 
 }
 
-
+@media only screen and (min-width:600px) {
+    .imgTitle {
+        width: 40%;
+    }
+}
 
 @media only screen and (min-width:992px) {
 
@@ -357,5 +367,9 @@ main {
     .nav-list .btn {
         margin-top: 0.5rem !important;
         margin-left: 1rem
+    }
+
+    .imgTitle {
+        width: 30%;
     }
 }
