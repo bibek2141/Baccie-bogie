@@ -12,3 +12,8 @@ selectElement(".open").addEventListener("click", () => {
 selectElement(".close").addEventListener("click", () => {
   selectElement(".nav-list").classList.remove("active");
 });
+
+var audio = $("#player")[0];
+$("#section1").mouseenter(function () {
+  audio.play();
+});
